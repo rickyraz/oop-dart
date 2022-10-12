@@ -1,7 +1,7 @@
 class Orange {
   int quantity = 0;
 
-  // operator seperti membuat method biasa dan memiliki return value
+  // operator seperti membuat Method biasa dan memiliki return value
   Orange operator +(Orange orange) {
     var result = Orange();
     result.quantity = quantity + orange.quantity;
