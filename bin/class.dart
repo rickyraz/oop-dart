@@ -1,8 +1,10 @@
 class Person {
+  //field
   String name = "Guest";
   String? address;
   final String country = "Indonesia";
 
+  // method
   void sayHello(String paramName) {
     print('Hello $paramName , My Name is $name and im from $country');
   }

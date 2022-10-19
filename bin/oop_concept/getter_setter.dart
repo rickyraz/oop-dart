@@ -1,4 +1,4 @@
-import 'data/rectangle.dart';
+import '../data/rectangle.dart';
 
 void main() {
   var rectangle = Regtangle();

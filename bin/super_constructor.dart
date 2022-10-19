@@ -6,9 +6,9 @@ class Manager {
 
 class VicePresident extends Manager {
   // hati2 ketika bikin super class,yg tenyata ada super constructor yang ada parameternya
-  // wajib memanggil parameternya
+  // wajib memanggil parameternya sebagai
   VicePresident(String name) : super(name) {
-    print("create new vice president");
+    print("create new vice president $name");
   }
 }
 

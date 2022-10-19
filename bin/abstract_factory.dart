@@ -7,6 +7,7 @@ abstract class Shape {
     // To trigger exception, don't implement a check for 'triangle'.
     throw 'Can\'t create $type.';
   }
+
   num get area;
 }
 

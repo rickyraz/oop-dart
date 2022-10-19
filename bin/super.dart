@@ -24,4 +24,4 @@ void main(List<String> args) {
 }
 
 // this  - untuk mengakses object saat ini
-// super - untuk mengakses parent dari object saat ini
+// super - untuk mengakses parent dari object saat ini ( diatas extends)
